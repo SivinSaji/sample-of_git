@@ -2,14 +2,7 @@
 int main()
 {
 	int c=0;
-	char str[10],*p;
-	printf("Enter a string: ");
-	gets(str);
-	p=str;
-	while(*p!='\0')
-	{
-		c++;
-		p++;
+	char str[10],
 	}
 	printf("\nLength=%d",c);
 }
